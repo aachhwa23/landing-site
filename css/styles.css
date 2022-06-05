@@ -1,0 +1,187 @@
+body{
+  font-family: "Oswald";
+  text-align:center;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald"
+}
+
+p{
+  color: #0e1613;
+font-style: bold;
+font-family:"Montserrat"
+line-weight: 1 rem;
+}
+
+/* Containers*/
+.container-fluid{
+  padding: 7% 15%;
+
+}
+
+/*Sections*/
+.coloured-section{
+  background-color: #6dad97;
+  color: #fff;
+}
+
+.white-section {
+background-color: #fff;
+color:#294139;
+}
+
+/* Headings */
+.big-heading{
+  font-family: "Oswald"
+  font-size: 6.0rem;
+  line-height: 1.5;
+
+
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height:1.5;
+}
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+  border-right: 2px solid #fff;
+  height: 50px;
+}
+
+.nav-item-without{
+  padding: 0 18px;
+
+}
+
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat"
+}
+
+/*Title Section*/
+
+
+#title .container-fluid {
+  padding: 3% 15%
+}
+
+/* Title Image */
+.title-image{
+  width: 45%;
+  transform:rotate(25deg);
+  position: absolute;
+  right:50%;
+  top: -15%;
+
+
+}
+
+/* Download Buttons */
+.download-button{
+  margin:5% 3% 5% 0;
+  font-family: "Montserrat"
+}
+
+
+/* Features */
+#features {
+  position: relative;
+
+}
+
+.feature-title {
+  font-size:1.5rem;
+}
+
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon{
+  color: #a0e0ca;
+  margin-bottom:1rem;
+}
+
+.icon:hover{
+  color:#55b38a;
+}
+
+/* Testimonial Section */
+#testimonials{
+  background-color: #a0e0ca;
+
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height:1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #a0e0ca;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 17%;
+  margin:20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height:1.5;
+}
+
+
+.pricing-column{
+  padding:3% 2%;
+  background-color:#55b38a;
+}
+
+
+/* Footer */
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width:1028px) {
+
+#title {
+  text-align: center;
+}
+
+  .title-image {
+    position: static;
+    transform:rotate(0);
+  }
+}
